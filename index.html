@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Yard Sales</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+  <div class="login">
+    <div class="form-container">
+      <img src="./assets/logos/logo_yard_sale.svg" alt="logo" class="logo">
+      <h1 class="title">Create a new password</h1>
+      <p class="subtitle">Enter a new password for your account</p>
+      <form action="/" class="form">
+        <label for="password" class="label">Password</label>
+        <input type="password" id="password" placeholder="**********" class="input input-password">
 
+        <label for="new-password" class="label">Re-enter password</label>
+        <input type="password" id="new-password" placeholder="**********" class="input input-password">
+
+        <button type="submit" class="button primary-button login-button">Confirm</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

@@ -7,8 +7,82 @@
   --very-light-pink: #C7C7C7;
   --text-input-field: #F7F7F7;
   --hospital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
 }
 
 body{
+  margin: 0;
   font-family: 'Quicksand', sans-serif;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  margin: 0 auto 48px auto;
+}
+
+.title {
+  font-size: var(--lg);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: var(--md);
+  color: var(--very-light-pink);
+  font-weight: 300;
+  margin: 0 0 32px 0;
+  text-align: center;
+}
+
+.label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.input {
+  background-color: var(--text-input-field);
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  font-size: var(--md);
+  padding: 6px;
+  margin-bottom: 12px;
+}
+
+.button {
+  border-radius: 8px;
+  border: none;
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.button.primary-button {
+  background-color: var(--hospital-green);
+  color: var(--white);
+  height: 50px;
+}
+
+.button.primary-button.login-button {
+  margin-top: 14px;
 }
