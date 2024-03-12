@@ -136,6 +136,10 @@ body{
   margin-bottom: 32px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 @media (max-width: 640px){
   .logo {
     display: block;
