@@ -17,8 +17,7 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
-.login,
-.email {
+.main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -26,8 +25,7 @@ body{
   align-items: center;
 }
 
-.form-container,
-.email-container {
+.container {
   width: 300px;
 }
 
@@ -131,6 +129,11 @@ body{
   border: 1px solid var(--hospital-green);
   color: var(--hospital-green);
   height: 50px;
+}
+
+.title.title-account {
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 @media (max-width: 640px){
