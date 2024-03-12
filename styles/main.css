@@ -114,10 +114,23 @@ body{
   color: var(--very-light-pink);
 }
 
-.resend a {
+.resend a,
+.forgot-text {
   text-decoration: none;
   color: var(--hospital-green);
   font-weight: bold;
+}
+
+.forgot-text {
+  margin: 18px 0 36px 0;
+  text-align: center;
+}
+
+.button.primary-dash-button {
+  background-color: transparent;
+  border: 1px solid var(--hospital-green);
+  color: var(--hospital-green);
+  height: 50px;
 }
 
 @media (max-width: 640px){
